@@ -1,0 +1,244 @@
+/* Estilos generales */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.image-hover {
+	transition: transform 0.6s ease;
+}
+
+.image-hover:hover {
+	transform: scale(1.1);
+	/* Escalar la imagen al 110% del tamaño original al pasar el ratón por encima */
+}
+
+.image-hover1 {
+	transition: transform 0.6s ease;
+}
+
+.image-hover1:hover {
+	transform: scale(0.9);
+	/* Escalar la imagen al 110% del tamaño original al pasar el ratón por encima */
+}
+
+
+
+
+
+
+
+
+
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+#texto-llamativo {
+	font-size: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin: 0;
+	color: white;
+	background-color: royalblue;
+	/* Agrega un fondo blanco al texto */
+
+	padding: 10px 20px;
+	/* Agrega un espacio alrededor del texto */
+}
+
+
+
+h1 {
+	margin: 0;
+	font-size: 32px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #333;
+}
+
+section {
+	margin-right: 20px;
+	flex-basis: 50%;
+}
+
+h2 {
+	margin-top: 0;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+
+li {
+
+
+
+
+
+	margin: 0px 20px 20px 0px;
+
+	border: 2px solid #ccc;
+	padding: 35px;
+}
+
+#miid {
+	text-align: center;
+	/* Centrar el texto horizontalmente */
+
+	background-color: royalblue;
+	/* Agrega un fondo blanco al texto */
+
+	padding: 10px 20px;
+	/* Agrega un espacio alrededor del t	exto */
+
+
+}
+
+h3 {
+	margin-top: 0;
+	font-size: 20px;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+
+/* Estilos específicos */
+li:hover {
+	background-color: #fffefecf;
+}
+
+ul.cart-list {
+	margin-bottom: 20px;
+}
+
+ul.cart-list li {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+ul.cart-list li img {
+	margin-right: 10px;
+}
+
+.cart-total {
+	font-weight: bold;
+}
+
+
+
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+img {
+	width: 100%;
+
+}
+
+h1 {
+	color: royalblue;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 50px;
+	padding: 15px 5%;
+}
+
+/* Estilos para la sección de audífonos inalámbricos */
+.product-section {
+	margin-top: 50px;
+}
+
+.product-section h2 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.product-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.product-card {
+	width: 23%;
+	margin-bottom: 30px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.product-card img {
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+
+.product-card h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.product-card p.price {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.add-to-cart-btn {
+	background-color: #2ecc71;
+	color: white;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+	background-color: #27ae60;
+}
+
+@media (max-width: 768px) {
+	.product-card {
+		width: 48%;
+	}
+}

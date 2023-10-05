@@ -1,0 +1,94 @@
+
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('logo2.jpg');
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, sans-serif;
+      }
+      
+      .container {
+        width: 50%;
+        margin: 50px auto;
+  
+        padding: 20px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+      }
+      
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+      
+      .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      label {
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      
+      .back-button {
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+      
+      .back-button:hover {
+        background-color: #555;
+      }
+
+
+      .boton-whatsapp {
+        background-color: #25d366; /* Color de fondo del botón de WhatsApp */
+        color: #fff; /* Color del texto del botón */
+        padding: 10px 20px; /* Espaciado interno del botón */
+        border: none; /* Borde del botón */
+        border-radius: 5px; /* Radio de borde para esquinas redondeadas */
+        text-align: center; /* Alineación del texto en el centro */
+        text-decoration: none; /* Elimina subrayado del enlace */
+        display: inline-block; /* Muestra como un bloque en línea */
+        font-size: 16px; /* Tamaño de fuente */
+        cursor: pointer; /* Cambia el cursor al pasar el ratón */
+      }
+      
+      /* Cambia el color del botón cuando se pasa el ratón por encima */
+      .boton-whatsapp:hover {
+        background-color: #128C7E; /* Nuevo color de fondo al pasar el ratón */
+      }
+      
+  
