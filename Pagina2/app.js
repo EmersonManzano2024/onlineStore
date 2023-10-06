@@ -58,13 +58,13 @@ stockProductos.forEach((producto) => {
 
 // 1- PRIMER PASO
 
-//AGREGAR AL CARRITO
+//Para agregar el carrito
 const agregarAlCarrito = (prodId) => {
 
-    //PARA AUMENTAR LA CANTIDAD Y QUE NO SE REPITA
+    //Este es para que no se repita 
     const existe = carrito.some (prod => prod.id === prodId) //comprobar si el elemento ya existe en el carro
 
-    if (existe){ //SI YA ESTÁ EN EL CARRITO, ACTUALIZAMOS LA CANTIDAD
+    if (existe){ 
         const prod = carrito.map (prod => { //creamos un nuevo arreglo e iteramos sobre cada curso y cuando
             // map encuentre cual es el q igual al que está agregado, le suma la cantidad
             if (prod.id === prodId){
