@@ -54,5 +54,4 @@ npm install
 ************************
 
 Avance
-no hay commits 
-Nota 0
+Nota 10
