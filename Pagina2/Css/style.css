@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-}
+
 img {
     width: 200%;
     margin-bottom: 10px;
@@ -316,33 +314,7 @@ nav a:hover {
 		}
 
 		/* Estilos específicos */
-		li:hover {
-			background-color: #eee;
-		}
 
-		ul.cart-list {
-			margin-bottom: 20px;
-		}
-
-		ul.cart-list li {
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			margin-bottom: 10px;
-		}
-
-		ul.cart-list li img {
-			margin-right: 10px;
-		}
-
-		.cart-total {
-			font-weight: bold;
-		}
-
-		button.checkout {
-			background-color: #cc0000;
-			color: #fff;
-		}
 /* Estilos para la sección de audífonos inalámbricos */
 .product-section {
 	margin-top: 50px;
