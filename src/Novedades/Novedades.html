@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi Tienda en Línea</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <script src="JS/Animacion.js"></script>
+</head>
+
+<body class="font-sans bg-gray-100">
+    <!-- Encabezado -->
+    <header class="bg-gray-900 text-white py-5">
+        <div class="container mx-auto flex items-center justify-between">
+            <h1 class="text-2xl uppercase font-bold">Electrosorios</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="novedades.html">Novedades</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="container mx-auto my-5 p-5 border border-gray-900">
+        <!-- Mensaje de bienvenida -->
+        <section class="bg-gray-200 p-10 text-center">
+            <h1 id="texto-llamativo" class="text-3xl uppercase font-bold text-white bg-royalblue py-2 px-4">
+                Los mejores precios para ti
+            </h1>
+        </section>
+
+        <ul class="flex flex-wrap">
+            <li class="w-1/3 p-10">
+                <img src="/Pagina2/img/6.jpg" alt="Mesa plegable" class="image-hover transform scale-110 hover:scale-125">
+                <h3 class="text-xl mt-4">Mesa plegable</h3>
+                <p>Mesa de trabajo plegable mediana, para ahorrar espacio, acomodable y espaciosa.</p>
+            </li>
+            <li class="w-1/3 p-10">
+                <img src="/Pagina2/img/18.jpg" alt="Contenedor de agua" class="image-hover transform scale-110 hover:scale-125">
+                <h3 class="text-xl mt-4">Contenedor de agua</h3>
+                <p>Recipiente para agua mediano, utilizable para llenar tu vaso con agua y mantiene tu agua fresca y a buena temperatura.</p>
+            </li>
+            <li class="w-1/3 p-10">
+                <img src="/Pagina2/img/10.jpg" alt="Botella de oso" class="image-hover transform scale-110 hover:scale-125">
+                <h3 class="text-xl mt-4">Duo Botella de oso</h3>
+                <p>Duo de botellas de oso para niños o adultos, contienen correa, stickers, pajilla y agarradero.</p>
+            </li>
+        </ul>
+
+        <section class="product-section mt-10">
+            <h2 id="miid" class="text-3xl font-bold text-center bg-royalblue py-2 px-4">Ofertas y descuentos</h2>
+            <div class="product-grid mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <div class="product-card p-4 border border-gray-900 rounded-lg shadow-md text-center">
+                    <img src="/Pagina2/img/63.jpg" alt="Audífonos 1" class="image-hover1 transform scale-90 hover:scale-100">
+                    <h3 class="text-lg mt-4">Audífonos Inalámbricos f9-5</h3>
+                </div>
+                <div class="product-card p-4 border border-gray-900 rounded-lg shadow-md text-center">
+                    <img src="/Pagina2/img/61.jpg" alt="Audífonos 2" class="image-hover1 transform scale-90 hover:scale-100">
+                    <h3 class="text-lg mt-4">Audífonos Inalámbricos f9-5</h3>
+                </div>
+                <div class="product-card p-4 border border-gray-900 rounded-lg shadow-md text-center">
+                    <img src="/Pagina2/img/65.jpg" alt="Audífonos 3" class="image-hover1 transform scale-90 hover:scale-100">
+                    <h3 class="text-lg mt-4">Audífonos Inalámbricos f9-5</h3>
+                </div>
+            </div>
+        </section>
+
+        <div class="section">
+            <h2 id="miid" class="text-3xl font-bold text-center bg-royalblue py-2 px-4 mt-6">Productos disponibles</h2>
+            <div class="product-grid mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+              <div class="product-card p-4 border border-gray-900 rounded-lg shadow-md text-center">
+                <img src="/Pagina2/img/6.jpg" alt="Gafa 1" class="image-hover1 transform scale-90 hover:scale-100">
+                <h3 class="text-lg mt-4">Gafa 1</h3>
+                <p class="price font-bold">$50</p>
+                <button class="add-to-cart bg-2ecc71 text-white border-none py-2 px-4 cursor-pointer transition duration-300 ease-in-out transform hover:scale-105">
+                  Agregar al carrito
+                </button>
+              </div>
+              <div class="product-card p-4 border border-gray-900 rounded-lg shadow-md text-center">
+                <img src="/Pagina2/img/8.jpg" alt="Gafa 2" class="image-hover1 transform scale-90 hover:scale-100">
+                <h3 class="text-lg mt-4">Gafa 2</h3>
+                <p class="price font-bold">$70</p>
+                <button class="add-to-cart bg-2ecc71 text-white border-none py-2 px-4 cursor-pointer transition duration-300 ease-in-out transform hover:scale-105">
+                  Agregar al carrito
+                </button>
+              </div>
+              <div class="product-card p-4 border border-gray-900 rounded-lg shadow-md text-center">
+                <img src="/Pagina2/img/10.jpg" alt="Gafa 3" class="image-hover1 transform scale-90 hover:scale-100">
+                <h3 class="text-lg mt-4">Gafa 3</h3>
+                <p class="price font-bold">$90</p>
+                <button class="add-to-cart bg-2ecc71 text-white border-none py-2 px-4 cursor-pointer transition duration-300 ease-in-out transform hover:scale-105">
+                  Agregar al carrito
+                </button>
+              </div>
+              <div class="product-card p-4 border border-gray-900 rounded-lg shadow-md text-center">
+                <img src="/Pagina2/img/12.jpg" alt="Gafa 4" class="image-hover1 transform scale-90 hover:scale-100">
+                <h3 class="text-lg mt-4">Gafa 4</h3>
+                <p class="price font-bold">$120</p>
+                <button class="add-to-cart bg-2ecc71 text-white border-none py-2 px-4 cursor-pointer transition duration-300 ease-in-out transform hover:scale-105">
+                  Agregar al carrito
+                </button>
+              </div>
+              <div class="product-card p-4 border border-gray-900 rounded-lg shadow-md text-center">
+                <img src="/Pagina2/img/14.jpg" alt="Gafa 5" class="image-hover1 transform scale-90 hover:scale-100">
+                <h3 class="text-lg mt-4">Gafa 5</h3>
+                <p class="price font-bold">$80</p>
+                <button class="add-to-cart bg-2ecc71 text-white border-none py-2 px-4 cursor-pointer transition duration-300 ease-in-out transform hover:scale-105">
+                  Agregar al carrito
+                </button>
+              </div>
+              <div class="product-card p-4 border border-gray-900 rounded-lg shadow-md text-center">
+                <img src="/Pagina2/img/16.jpg" alt="Gafa 6" class="image-hover1 transform scale-90 hover:scale-100">
+                <h3 class="text-lg mt-4">Gafa 6</h3>
+                <p class="price font-bold">$60</p>
+                <button class="add-to-cart bg-2ecc71 text-white border-none py-2 px-4 cursor-pointer transition duration-300 ease-in-out transform hover:scale-105">
+                  Agregar al carrito
+                </button>
+              </div>
+              <div class="product-card p-4 border border-gray-900 rounded-lg shadow-md text-center">
+                <img src="/Pagina2/img/4.jpg" alt="Gafa 6" class="image-hover1 transform scale-90 hover:scale-100">
+                <h3 class="text-lg mt-4">Gafa 6</h3>
+                <p class="price font-bold">$60</p>
+                <button class="add-to-cart bg-2ecc71 text-white border-none py-2 px-4 cursor-pointer transition duration-300 ease-in-out transform hover:scale-105">
+                  Agregar al carrito
+                </button>
+              </div>
+              <div class="product-card p-4 border border-gray-900 rounded-lg shadow-md text-center">
+                <img src="/Pagina2/img/18.jpg" alt="Gafa 6" class="image-hover1 transform scale-90 hover:scale-100">
+                <h3 class="text-lg mt-4">Gafa 6</h3>
+                <p class="price font-bold">$60</p>
+                <button class="add-to-cart bg-2ecc71 text-white border-none py-2 px-4 cursor-pointer transition duration-300 ease-in-out transform hover:scale-105">
+                  Agregar al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          
