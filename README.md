@@ -50,8 +50,9 @@ cd onlineStore
 
 # Instala las dependencias
 npm install
-
+```
 ************************
 
-Avance
+##Avance Nota
+Nota 10
 Nota 10
