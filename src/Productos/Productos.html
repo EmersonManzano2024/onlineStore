@@ -9,45 +9,73 @@
     <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  
+    <link rel="stylesheet" href="style.css">
     <script defer src="stock.js"></script>
     <script defer src="modal.js"></script>
     <script defer src="app.js"></script>
+
+
 </head>
 
-<body class="bg-gray-100 font-sans">
-    <header class="bg-gray-800 text-white p-5 flex justify-between items-center">
-        <h1 class="text-3xl font-bold">Mi Tienda en Línea</h1>
-        <nav>
-            <ul class="flex space-x-6">
-                <li><a href="inicio.html">Inicio</a></li>
-                <li><a href="novedades.html">Novedades</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <button id="boton-carrito" class="relative">
-                    <i class="fas fa-shopping-cart text-2xl"></i>
-                    <span id="contadorCarrito" class="bg-red-500 text-white text-xs w-5 h-5 rounded-full absolute -top-1 -right-1">0</span>
-                </button>
+<body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+</head>
+
+<body class="font-sans bg-gray-100 text-blue-700">
+    <!-- Encabezado -->
+    <header class="bg-gray-900 text-white py-5">
+        <div class="container mx-auto flex items-center justify-between">
+            <h1 class="text-2xl uppercase font-bold">Electrosorios</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="/src/Inicio/Inicio.html">Inicio</a></li>
+                    <li><a href="/src/Novedades/Novedades.html">novedades</a></li>
+                    <li><a href="/src/Productos/Productos.html">Productos</a></li>
+                    <li><a href="/src/contacto/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+
+
+                <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span
+                        id="contadorCarrito">0</span></button>
+
             </ul>
+
         </nav>
     </header>
 
-    <select id="filtroTalle" class="p-2 mb-5">
+
+    <select id="filtroTalle">
         <option value="all">Todos</option>
         <option value="Audifonos">Audifonos</option>
         <option value="Con gomitas">Audifonos con gomitas</option>
-        <option value="Sin gomitas">Audifonos sin gomitas</option>
-        <option value="Relojes">Relojes</option>
-    </select>
+        <option value="Sin gomitas">Audifonos sin gomitas/option>
+        <option value="Relojes">relojes</option>
 
-    <main id="contenedor-productos" class="max-w-screen-2xl mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        <!-- Aquí se generarán los productos -->
+
+    </select>
+    </div>
+
+
+
+
+
+
+
+
+    <main id="contenedor-productos">
+
     </main>
 
-    <div class="modal-contenedor fixed top-0 left-0 w-full h-screen bg-black bg-opacity-30 transform translate-y-full transition-transform duration-500 opacity-0 invisible">
-        <div class="modal-carrito relative bg-white min-w-[500px] p-5 transform translate-y-0 transition-transform duration-500">
-            <h3 class="text-2xl font-bold text-royalblue">Carrito "Lista de compras"</h3>
-            <button id="carritoCerrar" class="absolute top-3 right-3 font-bold text-royalblue text-xl focus:outline-none"><i class="fas fa-times-circle"></i></button>
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito "Lista de compras"</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
             <div id="carrito-contenedor">
                 <!-- <div class="productoEnCarrito">
                     <p>Buzo 1</p>
@@ -55,10 +83,12 @@
                     <button class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
                 </div> -->
             </div>
-            <p class="precioProducto font-bold">Precio total: $<span id="precioTotal">0</span></p>
-            <p class="precioProducto font-bold">Precio total: $<span id="precioTotal">0</span></p>
-            <button id="vaciar-carrito" class="boton-agregar bg-royalblue text-white">Vaciar carrito</button>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
         </div>
     </div>
+
 </body>
+
 </html>
